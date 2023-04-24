@@ -15,7 +15,7 @@
 
 	<?php
 		// Connect to the MySQL database
-		$servername = "localhost";
+		$servername = "192.168.1.35:3306";
 		$username = "root";
 		$password = "123456";
 		$dbname = "webtech_registration";
