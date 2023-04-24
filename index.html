@@ -19,15 +19,15 @@
 			<tbody>
 			  <tr>
 				<td>Morning (9am-12pm)</td>
-				<td id="morning-seats"></td>
+				<td id="morning-seats"><?php echo $morning_seats > 0 ? $morning_seats : 'Sold Out'; ?></td>
 			  </tr>
 			  <tr>
 				<td>Afternoon (1pm-4pm)</td>
-				<td id="afternoon-seats"></td>
+				<td id="afternoon-seats"><?php echo $afternoon_seats > 0 ? $afternoon_seats : 'Sold Out'; ?></td>
 			  </tr>
 			  <tr>
 				<td>Evening (5pm-8pm)</td>
-				<td id="evening-seats"></td>
+				<td id="evening-seats"><?php echo $evening_seats > 0 ? $evening_seats : 'Sold Out'; ?></td>
 			  </tr>
 			</tbody>
 		  </table>
