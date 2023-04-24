@@ -8,6 +8,29 @@
 <body>
 	<div class="container">
 		<h1>WebTech Registration Form</h1>
+		<?php include 'seats.php'; ?>
+		<table>
+			<thead>
+			  <tr>
+				<th>Time Slot</th>
+				<th>Available Seats</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Morning (9am-12pm)</td>
+				<td id="morning-seats"></td>
+			  </tr>
+			  <tr>
+				<td>Afternoon (1pm-4pm)</td>
+				<td id="afternoon-seats"></td>
+			  </tr>
+			  <tr>
+				<td>Evening (5pm-8pm)</td>
+				<td id="evening-seats"></td>
+			  </tr>
+			</tbody>
+		  </table>
 		<form method="POST" action="./action.php" onsubmit="return validateForm()" data-netlify="true">
 			<label for="id">ID:</label>
 			<input type="text" id="id" name="id" placeholder="Enter your ID number">
