@@ -15,10 +15,10 @@
 
 	<?php
 		// Connect to the MySQL database
-		$servername = "192.168.1.35:3306";
+		$servername = "webtechrregistration.cd980i6aedie.us-east-2.rds.amazonaws.com:3306";
 		$username = "root";
-		$password = "123456";
-		$dbname = "webtech_registration";
+		$password = "12345678";
+		$dbname = "webtechRregistration";
 		$conn = new mysqli($servername, $username, $password, $dbname);
 
 		// Check if the connection was successful
